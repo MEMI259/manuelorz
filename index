@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" /> <!-- Metadatos -->
+    <title></title> <!-- Estilos -->
+</head>
+<body>
+    <header>
+        <!-- Primer Elemento -->
+    </header>
+    <nav>
+        <!-- Menu -->
+    </nav>
+    <main>
+        <form method = "get" action ="">
+            <label for=" caja1">V
+                nombre
+            </label> 
+            <input type="text" id="caja1" name="caja1" placeholder="nombre de pila"/>
+            <input type="submit"/>
+        </form>
+    </main>
+</body>
+</html>
