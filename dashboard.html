@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/stylesdash.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Task Dashboard</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Agregar Nueva Tarea:</h3>
+            <div class="form-group">
+            <label for="description">Descripción</label>
+            <input type="text" id="description" placeholder="Task description">
+        </div>
+            <div class=" form-group">
+                <label for="start_date">Fecha Inicio</label>
+                <input type="date" id="start_date">
+            </div>
+            <div class="form-group">
+                <label for="end_date">Fecha Final</label>
+                <input type="date" id="end_date">
+            </div>
+            <div class="form-group">
+                <label for="photo">Cargar Foto</label>
+                <input type="file" id="photo" accept="image/*"
+                capture="environment">
+            </div>
+            <button onclick="addTask()">Agregar Tarea</button>
+        </section>
+        <article>
+            <h3>Tareas Pendientes</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Descripción</th>
+                        <th>Fecha Inicio</th>
+                        <th>Fecha Final</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="task-list"
+                ><!-- Carga la Tarea-->
+                </tbody>
+            </table>
+        </article>
+    </main>
+</body>
+<script src="./scriptdash.js"></script>
+</html>
+
