@@ -10,6 +10,9 @@ Se codifico los principales elementos que necesista un login común para un inic
 # Modificaciones al Css login
 Agregamos diseños, tipos de fuente y animaciones a los elementos principales para dar una apariencia agradable y amigable con el usuario
 
+# Agregar el sftp.json
+Crear un aechivo sftp para conectarnos al servidor donde estaremos subiendo nuestro codigo y archvos
+
 # Dashboard
 Se agrega otro archivo html en el cual le daremos las caracteriscas para poder agregar tareas, editarlas, eliminarlas o marcarlas como tareas ya realizadas
 
